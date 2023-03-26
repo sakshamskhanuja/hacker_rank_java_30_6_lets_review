@@ -6,7 +6,8 @@ Today we will expand our knowledge of strings, combining it with what we have al
 
 ### Task
 
-Given a string, <i>S</i>, of length <i>N</i> that is indexed from 0 to <i>N</i> - 1, print its even-indexed and odd-indexed characters as 2 space-separated strings on a single line (see the Sample below for more detail).
+Given a string, <i>S</i>, of length <i>N</i> that is indexed from 0 to <i>N</i> - 1, print its even-indexed and
+odd-indexed characters as 2 space-separated strings on a single line (see the Sample below for more detail).
 
 <b>Note:</b> 0 is considered to be an even index.
 
@@ -19,7 +20,7 @@ Print ```abc def```
 ### Input Format
 
 The first line contains an integer, <i>T</i> (the number of test cases).<br>
-Each line <i>i</i> of the <i>T</i> subsequent lines contain a string, <i>S</i>. 
+Each line <i>i</i> of the <i>T</i> subsequent lines contain a string, <i>S</i>.
 
 ### Constraints
 
@@ -30,7 +31,8 @@ Each line <i>i</i> of the <i>T</i> subsequent lines contain a string, <i>S</i>.
 
 ### Output Format
 
-For each String <i>Sj</i> (where 0 <= <i>j</i> <= <i>T</i> - 1), print <i>Sj</i>'s even-indexed characters, followed by a space, followed by <i>Sj</i>'s odd-indexed characters.
+For each String <i>Sj</i> (where 0 <= <i>j</i> <= <i>T</i> - 1), print <i>Sj</i>'s even-indexed characters, followed by
+a space, followed by <i>Sj</i>'s odd-indexed characters.
 
 ### Sample Input
 
@@ -57,7 +59,9 @@ Test Case 0: <i>S</i> = "Hacker"<br>
 <i>S</i>[4] = "e"<br>
 <i>S</i>[5] = "r"<br>
 
-The even indices are 0, 2, and 4, and the odd indices are 1, 3, and 5. We then print a single line of 2 space-separated strings; the first string contains the ordered characters from <i>S</i>'s even indices (```Hce```), and the second string contains the ordered characters from <i>S</i>'s odd indices (```akr```).
+The even indices are 0, 2, and 4, and the odd indices are 1, 3, and 5. We then print a single line of 2 space-separated
+strings; the first string contains the ordered characters from <i>S</i>'s even indices (```Hce```), and the second
+string contains the ordered characters from <i>S</i>'s odd indices (```akr```).
 
 Test Case 1: <i>S</i> = "Rank"<br>
 <i>S</i>[0] = "R"<br>
@@ -65,4 +69,6 @@ Test Case 1: <i>S</i> = "Rank"<br>
 <i>S</i>[2] = "n"<br>
 <i>S</i>[3] = "k"<br>
 
-The even indices are 0 and 2, and the odd indices are 1 and 3. We then print a single line of 2 space-separated strings; the first string contains the ordered characters from <i>S</i>'s even indices (```Rn```), and the second string contains the ordered characters from <i>S</i>'s odd indices (```ak```).
+The even indices are 0 and 2, and the odd indices are 1 and 3. We then print a single line of 2 space-separated strings;
+the first string contains the ordered characters from <i>S</i>'s even indices (```Rn```), and the second string contains
+the ordered characters from <i>S</i>'s odd indices (```ak```).
